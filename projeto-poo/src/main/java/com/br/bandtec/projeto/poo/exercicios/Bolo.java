@@ -11,7 +11,7 @@ public class Bolo {
         this.value = value;
     }
 
-    public String exibirRelatorio() {
+    public String displayReport() {
         return "O Bolo de " + flavor + " foi comprado " + sellQuantity + 
                 " vezes, totalizando R$ " + sellQuantity * value;
     }
@@ -20,7 +20,7 @@ public class Bolo {
         this.sellQuantity = sellQuantity;
     }
     
-    void comprarBolo(Integer quantity){
+    void buyCake(Integer quantity){
         if(sellQuantity + quantity > 100){
             System.out.println("Seu pedido ultrapassou nosso limite diário para esse bolo.");
         }else {

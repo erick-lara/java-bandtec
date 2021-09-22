@@ -10,17 +10,17 @@ package com.br.bandtec.projeto.poo.exercicios;
  * @author Aluno
  */
 public class Empregado {
-    private String nome;
-    private String cargo;
-    private Double salario;
+    private String name;
+    private String role;
+    private Double payment;
 
-    public Empregado(String nome, String cargo, Double salario) {
-        this.nome = nome;
-        this.cargo = cargo;
-        this.salario = salario;
+    public Empregado(String name, String role, Double payment) {
+        this.name = name;
+        this.role = role;
+        this.payment = payment;
     }
     
-    public Double reajuste(Double adjust){
-        return salario + salario * adjust / 100;
+    public Double readjust(Double adjust){
+        return payment + payment * adjust / 100;
     }
 }

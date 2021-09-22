@@ -21,27 +21,27 @@ public class BoloApplication {
                 + "Temos bolos de Chocolate, Morango e Abacaxi."
         );
             
-        bolo1.comprarBolo(10);
-        bolo1.comprarBolo(10);
-        bolo1.comprarBolo(10);
-        bolo1.comprarBolo(10);
-        bolo1.comprarBolo(10);
+        bolo1.buyCake(10);
+        bolo1.buyCake(10);
+        bolo1.buyCake(10);
+        bolo1.buyCake(10);
+        bolo1.buyCake(10);
 
-        bolo2.comprarBolo(32);
-        bolo2.comprarBolo(15);
-        bolo2.comprarBolo(25);
-        bolo2.comprarBolo(90);
-        bolo2.comprarBolo(10);
+        bolo2.buyCake(32);
+        bolo2.buyCake(15);
+        bolo2.buyCake(25);
+        bolo2.buyCake(90);
+        bolo2.buyCake(10);
 
-        bolo3.comprarBolo(20);
-        bolo3.comprarBolo(46);
-        bolo3.comprarBolo(90);
-        bolo3.comprarBolo(20);
-        bolo3.comprarBolo(20);
+        bolo3.buyCake(20);
+        bolo3.buyCake(46);
+        bolo3.buyCake(90);
+        bolo3.buyCake(20);
+        bolo3.buyCake(20);
         
-        System.out.println(bolo1.exibirRelatorio());
-        System.out.println(bolo2.exibirRelatorio());
-        System.out.println(bolo3.exibirRelatorio());
+        System.out.println(bolo1.displayReport());
+        System.out.println(bolo2.displayReport());
+        System.out.println(bolo3.displayReport());
 
     }
 }
