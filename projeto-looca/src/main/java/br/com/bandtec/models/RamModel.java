@@ -1,20 +1,20 @@
 package br.com.bandtec.models;
 
 public class RamModel {
-    public Long ramData;
+    private Double ramData;
 
-    public RamModel( Long ramData) {
+    public RamModel( Double ramData) {
         this.ramData = ramData;
     }
 
     public RamModel() {
     }
 
-    public Long getRamData() {
+    public Double getRamData() {
         return ramData;
     }
 
-    public void setRamData(Long ramData) {
+    public void setRamData(Double ramData) {
         this.ramData = ramData;
     }
 

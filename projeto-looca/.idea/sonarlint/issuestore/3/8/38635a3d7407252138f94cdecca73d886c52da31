@@ -1,0 +1,11 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ø•Ôãøÿÿÿÿ8Óó“ËÂ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(àœ¯ıÿÿÿÿ8—­´ËÂ/
+j
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(¸ø¥©
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+N
+java:S1128",Remove this unused import 'java.util.Timer'.(†£ñáÿÿÿÿÿ8ïúÅÉÂ/
+F
+java:S1128	"0Remove this unused import 'java.util.TimerTask'.(àÀÇÙ

@@ -1,18 +1,12 @@
 package br.com.bandtec.controllers;
 
-import br.com.bandtec.services.RamService;
+import br.com.bandtec.services.RegisterService;
 
 public class RamController {
 
-    RamService service = new RamService();
+    RegisterService service = new RegisterService();
 
-    public String getRamData(){
-        try {
-            return service.getProcessedRam();
-
-        } catch (IndexOutOfBoundsException e){
-
-            return e.toString();
-        }
+    public Double getRamData(){
+        return service.setValues();
     }
 }
