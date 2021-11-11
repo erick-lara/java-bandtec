@@ -24,9 +24,18 @@ public class Departamento {
 
     public Double calcularTotalSalario(){
         Double totalSalario = 0.0;
-        for(VendedorComissao vendedor: vendedores){
+
+        for(VendedorComissao vendedor: vendedores)
             totalSalario += vendedor.calcularSalario();
-        }
+
         return totalSalario;
+    }
+
+    public void exibeFixo(){
+        for(VendedorComissao vendedor : vendedores){
+            if(vendedor instanceof VendedorComissaoMaisFixo)
+                System.out.println(vendedor);
+
+        }
     }
 }

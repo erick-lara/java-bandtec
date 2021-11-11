@@ -10,7 +10,7 @@ public class ComissaoApp {
                 0.25
         );
 
-        VendedorComissaoMaisFixo teste2 = new VendedorComissaoMaisFixo(
+        VendedorComissao teste2 = new VendedorComissaoMaisFixo(
                 2,
                 "Kleber",
                 5000.00,
@@ -33,6 +33,11 @@ public class ComissaoApp {
 
         dept.exibirTodos();
 
-        System.out.println(dept.calcularTotalSalario());
+        System.out.printf(
+                "Total a ser pago: R$%.2f%n",
+                dept.calcularTotalSalario()
+        );
+
+        dept.exibeFixo();
     }
 }
