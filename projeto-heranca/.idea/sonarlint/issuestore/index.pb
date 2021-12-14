@@ -9,11 +9,11 @@ U
 %src/main/java/heranca/ImovelNovo.java,3/3/3336e4912f4a76ea556777bc1bea4daeddf19ba0
 V
 &src/main/java/heranca/ImovelUsado.java,3/a/3a00729047e685b049abddb0a5c78966c128e279
-j
-:src/main/java/desafioHeranca/VendedorComissaoMaisFixo.java,2/c/2cd1e4f2d02922f6cd163258e6609af45c49afae
-b
-2src/main/java/desafioHeranca/VendedorComissao.java,2/a/2ae0f59cf6b52c8a355f3691c8a9dcd1680caa15
-^
-.src/main/java/desafioHeranca/Departamento.java,a/7/a73910c32fc14323685e295293cb95f0d85f86fb
 ]
 -src/main/java/desafioHeranca/ComissaoApp.java,d/4/d4c6467d61134fd98f1da2925b507dc26b299116
+b
+2src/main/java/desafioHeranca/VendedorComissao.java,2/a/2ae0f59cf6b52c8a355f3691c8a9dcd1680caa15
+j
+:src/main/java/desafioHeranca/VendedorComissaoMaisFixo.java,2/c/2cd1e4f2d02922f6cd163258e6609af45c49afae
+^
+.src/main/java/desafioHeranca/Departamento.java,a/7/a73910c32fc14323685e295293cb95f0d85f86fb

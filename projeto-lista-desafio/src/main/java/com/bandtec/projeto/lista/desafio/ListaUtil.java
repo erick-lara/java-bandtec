@@ -1,8 +1,6 @@
 package com.bandtec.projeto.lista.desafio;
 
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Objects;
+import java.util.*;
 
 public class ListaUtil {
 
@@ -13,11 +11,8 @@ public class ListaUtil {
     }
 
     public void add(Integer i){
-        if(i == null){
-            
-        } else {
+        if(i != null)
             this.inteiros.add(i);
-        }
     }
     
     public void remove(Integer i){
@@ -87,35 +82,8 @@ public class ListaUtil {
     }
     
     public Boolean hasDuplicidade(){
-        
-        Boolean isDuplicated;
-        isDuplicated = inteiros.stream().anyMatch(inteiros -> {
-            return true; //To change body of generated lambdas, choose Tools | Templates.
-        });
-        
-//        if(this.count() != 0){
-//                for(int i = 0; i < inteiros.size(); i++){
-//                    
-//                    inteiros.get(i);
-//                    
-//                for(int j = 0; j < inteiros.size(); j++){
-//                    
-//                    inteiros.get(j);
-//                    
-//                    if(inteiros.get(i) == inteiros.get(j)){
-//                        
-//                        return true;
-//
-//                    }
-//                }
-//            }
-//        } else {
-//            
-//            return false;
-//        }
-//        
-        return isDuplicated;
- 
+        Set<Integer> set = new HashSet<Integer>(inteiros);
+
+        return set.size() < inteiros.size();
     }
-    
 }
